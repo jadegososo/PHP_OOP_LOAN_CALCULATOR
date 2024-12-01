@@ -85,6 +85,15 @@ input[type="number"]:focus{
     padding: 0 30px;
 }
 
+.btn:hover{
+    background-color: rgb(0, 0, 102);
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: #000597;
+}
+
 .btn-center{
     display: block;
     margin: auto;

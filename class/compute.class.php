@@ -1,6 +1,7 @@
 <?php
 
 class Compute {
+    // Properties
     private $terms = [
         ['term' => 12, 'value' => 0],
         ['term' => 18, 'value' => 0],
@@ -11,6 +12,7 @@ class Compute {
 
     private $interest = 0.005; // Monthly add-on rate of 0.5%
     
+    // Methods
     public function __construct(private $loan_amount = 0) {}
 
     public function computeInstallments() {
